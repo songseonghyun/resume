@@ -1,0 +1,28 @@
+
+
+#loading {
+    border-radius: 50%;
+    background-image: url('../portfolioImage/steven_resume.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 200px auto 30px;
+}
+
+
+
+#sign {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    opacity: .5;
+}
+
+#sign span {
+    opacity: 0;
+}
+
+html {
+    background-color: #555;
+}
