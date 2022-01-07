@@ -40,7 +40,7 @@ header nav a.active {
   width: 30px;
   height: 30px;
   position: absolute;
-  right: 15vh;
+  right: 10vh;
   top: 25px;
   border-radius: 50%;
   z-index: 1;
@@ -54,7 +54,7 @@ header nav a.active {
   width: 30px;
   font-size: 30px;
   position: absolute;
-  right: 15vh;
+  right: 10vh;
   top: 25px;
   padding: 0;
   margin: 0;
@@ -122,12 +122,15 @@ section .text-container .text-box h3 {
   margin-bottom: 20px;
 }
 
+#About .text-box:first-child(2) {
+  width: 20vh;
+}
 #About .text-box:nth-child(2) {
-  width: 200px;
+  width: 30vh;
 }
 
 #About .text-box:last-child {
-  width: 400px;
+  width: 40vh;
 }
 
 #About table td {
@@ -273,6 +276,36 @@ section .text-container .text-box h3 {
 }
 
 
+/* Project */
+.project {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  z-index: -1000;
+  opacity: 0;
+  /* background-color: #202124; 온클릭 이후 변화 */
+}
+#Project .text-container {
+  flex-wrap: wrap;
+}
+/* #Project .text-box:nth-child(1) {animation-delay: .1s;} */
+#Project .text-box:nth-child(2) {animation-delay: .1s;}
+#Project .text-box:nth-child(3) {animation-delay: .2s;}
+#Project .text-box:nth-child(4) {animation-delay: .3s;}
+#Project img {
+  width: 119.92px;
+  height: 162px;
+}
+/* img 119.92 * 162 */
+
+
+
+
+
 
 /* introduce */
 #Introduce {
@@ -288,7 +321,7 @@ section .text-container .text-box h3 {
 #Introduce #leftbtn {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 50px;
+  width: 10vh;
   height: 500px;
   margin: 0;
   padding: 0;
@@ -302,23 +335,27 @@ section .text-container .text-box h3 {
   transform: scale(1.1);
 }
 #Introduce .text-box {
+  width: 80vh;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  width: 500px;
+  /* width: 500px; */
   height: 500px;
 }
 #Introduce .IntroducePage {
-  display: inline;
-  float: left;
-  padding: 20px;
-  width: 500px;
+  /* display: inline; */
+  /* float: right; */
+  /* padding: 20px; */
+  /* margin: 0; */
+  /* text-align: justify; */
+  /* margin: 0px; */
+  width: 67.6vh;
   height: 500px;
 }
 #Introduce #rightbtn {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  width: 50px;
+  width: 10vh;
   height: 500px;
   margin: 0;
   padding: 0;
