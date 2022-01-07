@@ -19,6 +19,8 @@ window.onscroll = () => {
   });
 };
 
+
+
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
@@ -36,3 +38,41 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+
+
+const introduce = document.getElementsByClassName('IntroducePage');
+const leftbtn = document.getElementById('leftbtn');
+const rightbtn = document.getElementById('rightbtn');
+const show = document.getElementsByClassName('show')
+let place = 0;
+
+leftbtn.onclick = function() {
+  place += 500;
+  if (place > 0) {
+    // console.log('check');
+    place = -1500;
+    for(let j=0; j<introduce.length; j++) {
+      introduce[j].style.transform = 'translateY(0px);'
+    }
+  }
+  for (let i=0; i<introduce.length; i++) {
+    introduce[i].style.transform = 'translateY('+place+'px)';
+  }
+};
+
+
+
+rightbtn.onclick = function() {
+  place -= 500;
+  if (place <= -2000) {
+    // console.log('check');
+    place = 000;
+    for(let j=0; j<introduce.length; j++) {
+      introduce[j].style.transform = 'translateY(0px);'
+    }
+  }
+  for (let i=0; i<introduce.length; i++) {
+    introduce[i].style.transform = 'translateY('+place+'px)';
+  }
+};
