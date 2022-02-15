@@ -13,11 +13,11 @@
 <body>
   <header>
     <nav>
-      <a href="#home" class="active">Home</a>
+      <a href="#home" class="activePro">Home</a>
       <a href="#About">About</a>
       <a href="#Skill">Skill</a>
       <a href="#Project">Project</a>
-      <a href="#Introduce">Introduce</a>
+      <!-- <a href="#Introduce">Introduce</a> -->
     </nav>
     <div id="bgm"><audio src="./bgm/bgm.mp3" autoplay loop controls></audio></div>
     <div id="music"><i class="fas fa-headphones-alt"></i></div>
@@ -35,27 +35,35 @@
       <h2>About</h2>
       <div class="text-container">
         <div class="text-box reveal fade-left">
-          <img src="../portfolioImage/steven_resume.jpeg" alt="증명사진">
+          <img src="../portfolioImage/증명사진.jpeg" alt="증명사진">
           <table>
             <tr>
-              <td>NAME</td>
+              <th>NAME</th>
               <td>송성현</td>
             </tr>
             <tr>
-              <td>ADDRESS</td>
+              <th>ADDRESS</th>
               <td>경기도 성남시 중원구</td>
             </tr>
             <tr>
-              <td>BIRTH</td>
+              <th>BIRTH</th>
               <td>95.03.05</td>
             </tr>
             <tr>
-              <td>E-MAIL</td>
+              <th>E-MAIL</th>
               <td>songsh5123@gmail.com</td>
             </tr>
             <tr>
-              <td>TEL</td>
+              <th>TEL</th>
               <td>010-5036-5123</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <a href="https://github.com/songseonghyun/DragonCenter"><div class="image-container" name="github"></div></a>
+                <a href="https://blog.naver.com/songsh5036"><div class="image-container" name="blog"></div></a>
+                <a href="#!"><div class="image-container" namae="instagram"></div></a>
+                <div style="clear: both;"></div>
+              </td>
             </tr>
           </table>
         </div>
@@ -90,39 +98,47 @@
           <img src="../portfolioImage/web.png" alt="">
         </div>
         <div class="text-box reveal fade-right">
-          <img src="../portfolioImage/db.png" alt="">
+          <img src="../portfolioImage/oracle.png" alt="">
         </div>
         <div class="text-box reveal fade-left">
           <img src="../portfolioImage/python.png" alt="">
         </div>
+        <div class="text-box reveal fade-left">
+          <img src="../portfolioImage/spring.png" alt="">
+        </div>
+        <div class="text-box reveal fade-right">
+          <img src="../portfolioImage/jsp.png" alt="">
+        </div>
         <div class="text-box">
           <div class="explain">
-            <h3>Web</h3>
+            <h3>Full-Stack</h3>
             <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              enim dolorem aliquam laudantium perferendis, nam aspernatur minima
-              earum, vero repudiandae ex sit necessitatibus optio
-              exercitationem? Commodi quibusdam eius quis in, sunt assumenda
-              quae hic odit, fuga exercitationem magnam ipsam laboriosam.
+              - Spring Framework를 이용하여 웹페이지를 제작할 수 있습니다. <br>
+              - MVC모델로 프레임워크를 구성하여 코드재사용성을 높이고, 응용프로그램 개발에 소요되는 시간을 단축시킬 수 있습니다.<br>
+              - MyBatis를 활용하여 동적 쿼리문을 보다 능률적으로 관리할 수 있습니다.
             </div>
           </div>
           <div class="explain">
-            <h3>Deaver</h3>
+            <h3>Back-End</h3>
             <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In dicta
-              qui tempora beatae recusandae exercitationem deleniti ipsa error
-              nemo voluptatibus distinctio, sint maxime expedita eaque. Magni,
-              harum ipsa? Temporibus sint optio quasi, deserunt ullam nihil
-              repellendus accusamus animi mollitia veniam!
+              - Oracle로 관계형 데이터베이스를 설계할 수 있습니다. <br>
+              - SQLD를 취득하여 데이터모델의 이해 및 분석할 수 있습니다.<br>
+              - SQL의 이해 및 활용할 수 있습니다.<br>
+              - Java를 활용하여 알고리즘을 구현할 수 있습니다.
+            </div>
+          </div>
+          <div class="explain">
+            <h3>Front-End</h3>
+            <div>
+              - HTML, CSS, JavaScript를 활용하여 웹페이지의 레이아웃을 제작 및 디자인할 수 있습니다.<br>
+              - 아울러 JQUERY를 활용하여 JAVASCRIPT를 보다 가독성을 높일 수 있습니다.
             </div>
           </div>
           <div class="explain">
             <h3>Python</h3>
             <div>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
-              similique sed pariatur voluptatem eum aspernatur porro doloribus
-              quaerat esse, ab sunt tempora. Similique quibusdam sit dolorum
-              quos ipsum! Voluptatibus, soluta?
+              - 파이썬으로 기본적인 알고리즘을 구현할 수 있습니다.<br>
+              - 머신러닝을 공부하였고, 원리를 이해합니다.
             </div>
           </div>
         </div>
@@ -135,56 +151,87 @@
       <h2>Project</h2>
       <div class="text-container">
         <div class="text-box reveal fade-bottom">
+          <h3>Web<br>Project</h3>
+          <!-- <img src="../portfolioImage/kangaroo4.jpeg" alt=""> -->
+          <iframe src="./web/webproject.html" width="300px" height="300px" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="text-box reveal fade-bottom">
           <h3>Java<br>Project</h3>
-          <img src="../portfolioImage/kangaroo1.jpeg" alt="">
+          <!-- <img src="../portfolioImage/kangaroo1.jpeg" alt=""> -->
+          <iframe src="./java/javaproject.html" width="300px" height="300px" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="text-box reveal fade-bottom">
           <h3>Oracle<br>Project</h3>
-          <img src="../portfolioImage/kangaroo2.jpeg" alt="">
+          <!-- <img src="../portfolioImage/kangaroo2.jpeg" alt=""> -->
+          <iframe src="./oracle/oracleproject.html" width="300px" height="300px" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="text-box reveal fade-bottom">
           <h3>Python<br>Project</h3>
-          <img src="../portfolioImage/kangaroo3.jpeg" alt="">
-        </div>
-        <div class="text-box reveal fade-bottom">
-          <h3>Javascript<br>Project</h3>
-          <img src="../portfolioImage/kangaroo4.jpeg" alt="">
+          <!-- <img src="../portfolioImage/kangaroo3.jpeg" alt=""> -->
+          <iframe src="./python/pythonproject.html" width="300px" height="300px" frameborder="0" scrolling="no"></iframe>
         </div>
       </div>
     </div>
   </section>
 
+
+  
+  <!-- <div class="project" id="webproject">
+    <div class="projcontainer">
+      dddd
+    </div>
+  </div>
   <div class="project" id="javaproject">
-    aaa
+    <div class="projcontainer">
+      
+    </div>
   </div>
   <div class="project" id="oracleproject">
-    <br>
-    aaa
+    <div class="projcontainer">
+      bbb
+    </div>
   </div>
   <div class="project" id="pythonproject">
-    <br>
-    <br>
-    aaa
-  </div>
-  <div class="project" id="javascriptproject">
-    <br>
-    <br>
-    <br>
-    aaa
-  </div>
+    <div class="projcontainer">
+      cccc
+    </div>
+  </div> -->
 
-  <section id="Introduce" name="Introduce">
+  <!-- <section id="Introduce" name="Introduce">
     <div class="container reveal extension-circle">
       <h2>Introduce</h2>
       <div class="text-container">
         <div id="leftbtn">&lt;</div>
         <div class="text-box">
           <div class="IntroducePage">
-            <h3>성장배경</h3>
-            aaa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet magni impedit pariatur excepturi expedita odit recusandae officia velit, molestiae numquam temporibus, tempore omnis unde incidunt! Ex cumque amet, nihil accusantium perferendis distinctio qui fuga blanditiis, ipsum natus consectetur sequi molestias minus voluptate maxime, voluptatibus cupiditate. At soluta quam consequatur! Iure odio amet error, voluptate voluptatem dolor quos quam saepe, delectus odit voluptates, ad culpa quia dolore! Explicabo, totam quasi iste odit numquam est ratione excepturi veritatis quod praesentium impedit, earum perferendis. Vel, voluptatibus. A dolorem placeat velit fuga consequuntur soluta ratione perferendis quod enim quae, error dolores. Nisi eaque praesentium optio sequi architecto, corrupti in blanditiis qui recusandae doloribus maxime quam, maiores fugit quod! Accusamus iste veritatis unde perferendis neque cum, earum optio quod debitis dolore expedita harum ducimus, labore velit vitae officia tempora? Vel ratione unde asperiores molestiae quis harum eius id, dolorum eveniet atque doloremque vitae natus, amet, ex officia est! Officia et rem possimus maiores ex iste quo, facere itaque commodi omnis tenetur a illo ab provident sequi! Inventore labore, repudiandae, vel dolores culpa ut temporibus reiciendis laudantium adipisci, unde expedita cupiditate voluptate laborum ipsam iste sunt!
+            송림고 졸업
+
+            수원대 수학과 입학
+            자연과학대학에서 it로 분리
+            수학과와 통계학과의 통합 -> 데이터과학부
+            폭넓어진 전공선택의 폭 (파이썬 공부, 데이터 구조 공부, 웹 프로그래밍 공부)
+            수원대 수학과 졸업(수학 이학사 취득)
+
+            군입대
+            -> 인내심
+
+            호주 워킹홀리데이(영어 어학원에서 공부, 농.공장에서 사회경험)
+
+            롯데시네마, cgv, 스타벅스
+            -> 공부도 하고 일도 병행
+            -> 개발자의 경험과는 무관하지만 정형화되지 않은 인적자원이라는 데이터를 공부
+            -> 기업에서의 일의 인과관계를 배움
+            -> 돌발상황에 대한 대처능력 향상
+            -> 성격
+
+            쌍용교육센터
+            -> 개발에 필요한 실무를 배움
+
+             harum ducimus, labore velit vitae officia tempora? Vel ratione unde asperiores molestiae quis harum eius id, dolorum eveniet atque doloremque vitae natus, amet, ex officia est! Officia et rem possimus maiores ex iste quo, facere itaque commodi omnis tenetur a illo ab provident sequi! Inventore labore, repudiandae, vel dolores culpa ut temporibus reiciendis laudantium adipisci, unde expedita cupiditate voluptate laborum ipsam iste sunt!
           </div>
           <div class="IntroducePage">
-            bbb Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, delectus in? Possimus culpa eos cum! Fugit, impedit doloremque expedita, optio iure ex velit aut, nulla cumque quaerat possimus porro eveniet unde asperiores perspiciatis tempore amet odio totam ipsum quam ducimus. Delectus corporis eligendi ad? Veritatis, blanditiis fugiat, iure autem ratione qui ea molestias ipsum mollitia cumque consectetur repellat deserunt pariatur magni non tempora quidem necessitatibus eum. Architecto, quas corporis. Sequi nam corrupti harum quas doloribus repellat incidunt, voluptate doloremque dicta suscipit earum consectetur magni maiores non! Quos sequi quasi ratione, sint illo magni ab beatae, nulla aspernatur, maxime minus molestias aperiam vitae nam. Voluptas, ipsam ut delectus reiciendis voluptatibus cum eveniet. Laudantium enim facere magni quas nobis officia, architecto a cum quo quibusdam asperiores ab fugit amet consequuntur deserunt adipisci quos sed corporis reprehenderit vel sequi! At ipsam repellat perspiciatis tempora cumque sed deleniti molestias, distinctio non, a nisi blanditiis, quo quas earum facere! Deserunt unde, sequi quasi tempore suscipit vitae explicabo, architecto assumenda doloremque autem molestiae provident sunt vero vel ratione accusantium, voluptatibus distinctio labore voluptatem iure qui saepe. Eius expedita qui obcaecati aspernatur culpa suscipit consectetur, inventore accusamus.            
+            맥으로 공부했다... 쌍용교육센터 윈도우기반 수업이다.. 어떻게 수업들었는지 질문받는다..
+            구글링, 수업시간외의 질문, 지인찬스 등 물불 가리지 않음
           </div>
           <div class="IntroducePage">
             ccc Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem odio, reiciendis natus voluptatibus architecto officia accusamus assumenda cupiditate maiores deleniti nemo minus ex similique animi nostrum eaque ducimus sed nihil commodi eum et, rem eveniet dolore. Illo repellat quod magnam eius reprehenderit veniam quas, animi esse corporis atque quaerat ratione eligendi laudantium aut eveniet perferendis voluptas recusandae cum culpa maxime distinctio vitae excepturi consequuntur minima. Odit quisquam natus, consequatur assumenda labore eius molestiae ea delectus, et sapiente nulla magnam voluptate, vitae voluptatum. Quidem nemo doloremque, distinctio laboriosam ipsa praesentium explicabo earum enim? Voluptate repellat cumque officia totam commodi, vero magnam voluptatem temporibus sapiente, hic dolores rerum velit atque quaerat alias quibusdam sit sed neque non error, et est quam obcaecati! Iure voluptates quod, expedita corrupti unde totam doloremque provident amet, hic nostrum veniam aut, suscipit necessitatibus in labore? Voluptatibus adipisci inventore eius maxime obcaecati? Dolores dolorem, repudiandae doloribus voluptate nisi libero quae accusamus minus quasi odit perferendis sint delectus eveniet accusantium, repellat consequuntur assumenda nulla? Impedit laudantium, libero exercitationem velit necessitatibus voluptatum fuga, fugit provident quas, ipsa illum quo ullam placeat quod vitae mollitia! Voluptatibus dolorum beatae iste consequuntur necessitatibus?
@@ -192,17 +239,16 @@
           <div class="IntroducePage">
             ddd Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cumque qui rerum totam placeat illum officiis natus fugiat soluta repellendus atque tenetur recusandae. Eligendi, praesentium porro tempore repellat ducimus quos explicabo quam, sapiente error inventore officia, unde incidunt adipisci molestiae sint veniam assumenda! Quod quas harum velit laborum explicabo reprehenderit dolor laudantium, illo perspiciatis cupiditate minus cum recusandae in ab esse optio culpa eum. Accusamus culpa velit blanditiis facilis possimus quibusdam modi fugit hic, aperiam minima officia mollitia. Praesentium, iure? Natus, voluptatem consequatur? Expedita excepturi a dicta laboriosam amet debitis molestiae! Non molestiae iure sunt ex tempora odit labore, delectus molestias! Praesentium nobis corrupti enim quidem explicabo voluptatum veniam expedita natus. Delectus impedit facere totam? Dicta quae voluptatum ipsam iure voluptate consectetur nobis minima, ea magnam rerum veritatis quisquam aperiam labore nam recusandae ducimus facere? Quos quis debitis eaque inventore ipsum cupiditate, excepturi delectus? Voluptates dolor, vero rerum provident in ipsam optio rem eum error voluptatem, iste itaque laboriosam. Suscipit dignissimos sint voluptates provident sunt voluptas ipsum molestias vel unde officia beatae in facilis non mollitia, quia pariatur atque nulla odio iusto autem rerum quidem id. Aut, sunt. Nemo, delectus!
           </div>
-          <!-- <div style="clear: both;"></div> -->
         </div>
         <div id="rightbtn">&gt;</div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
-  
 
   <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="./main.js"></script>
 </body>
 
